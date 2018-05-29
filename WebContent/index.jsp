@@ -8,14 +8,13 @@
 <link rel="stylesheet" href="basic_style.css">
 </head>
 <body>
-    <header><a href="index.html"><h1 style="text-align: center">CHILD PROTECTION</h1></a></header>
+    <header><a href="index.jsp"><h1 style="text-align: center">MIN'S CHINESE</h1></a></header>
     <nav>
         <ul>
-            <li><a href="index.html">홈</a></li>
-            <li><a href="introduction.html">소개</a></li>
-            <li><a href="news.html" target="main">소식</a></li>
-            <li><a href="support.html" target="main">후원</a></li>
-            <li><a href="counsel.html" target="main">상담</a></li>
+            <li><a href="index.jsp">한자</a></li>
+            <li><a href="introduction.html">한자 퀴즈</a></li>
+            <li><a href="news.html" target="main">노래로 연습</a></li>
+            <li><a href="support.html" target="main">책 추천</a></li>
         </ul>
     </nav>
     <aside id = "leftmenu">
@@ -32,19 +31,9 @@
         </div>
     </aside>
     <section>
-        <article>
-            <iframe name="main" width="100%" height="700" style="border:none" src="main.html"></iframe>
+        <article style="width:80%;">
+            <iframe name="main" width="100%" height="800" style="border:none" src="main.html"></iframe>
         </article>
     </section>
-    <aside id = "right">
-        <div id="contact">
-			<h3>CONTACT</h3>
-			<a href="contact.html" target="main">언제든 당신의 연락을 기다리고 있습니다.</a>
-		</div>    
-    </aside>
-    <footer>
-        <small style="line-height: 50px; color: burlywood; margin-left: -50px; margin-top: 20px;">Copyright (c) 2018 CHILD PROTECTION / 3203 김민영</small>
-        <address style="line-height: 50px; color: burlywood; margin-left: -50px;">동대문구 천호대로89길 52 아동 보호 상담 서비스센터 / 3203 김민영</address>
-    </footer>
 </body>
 </html>

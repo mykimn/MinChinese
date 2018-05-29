@@ -1,33 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Nanum+Gothic|Song+Myung');
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Nanum+Gothic|Song+Myung|Gaegu|Poor+Story|Nanum+Myeongjo');
 * {
 	padding: 0px; /* 안쪽 여백 */
 	margin: 0px; /* 바깥쪽 여백 */
-	font-family:'Song Myung';
+	font-family:'Nanum Myeongjo';
 	font-size:large;
 }
 body{
-	background-color: #99cc99;
+	background-color: #92a8d1;
 }
 header{
-	background-color: yellow;
-	height: 150px;
+	background:-webkit-linear-gradient(20deg, rgb(245,201,201), rgb(145,166,207));
+	height: 80px;
 	background-image:url(media/main1.jpg);
     background-image:contain;
 }
 header a{
     margin-left: 30px;
 	text-decoration:none;
-	color:forestgreen;
+	color:#f7cac9;
 	text-shadow:2px 2px 3px gray;
 }
 header a h1{
-    margin-top: 50px;
-	margin: 30px 10px;
+	margin-top:-25px;
 	font-family:'East Sea Dokdo';
 	font-size:50px;
 }
 nav{
-	background-color: #ccff33;
+	background-color: #f7cac9;
 	margin: 5px;
 }
 nav ul{
@@ -53,7 +52,7 @@ nav ul li a:hover{
 }
 aside#left{ /* aside가 두개이기 때문에 아이디도 적어줌 */
 	float: left;
-	width: 18%;
+	width: 12%;
     margin-left: 5px;
     margin-right: 5px;
 	padding:5px;
@@ -61,15 +60,15 @@ aside#left{ /* aside가 두개이기 때문에 아이디도 적어줌 */
 }
 aside#leftmenu{
 	float: left;
-	width: 18%;
-	margin-top:-25px;
+	width: 12%;
+	margin-top:-35px;
     margin-left: 5px;
     margin-right: 5px;
 	padding:5px;
 }
 aside#leftmenu div#login{
 	background-color:white;
-	border: 3px solid green;
+	border: 3px solid #f7cac9;
 	border-radius:10px;
 }
 aside#left ul li ul li{
@@ -96,19 +95,8 @@ aside#left ul li ul li a:active{
 }
 article{
 	float:left;
-	width:62%;
-	/*background-color:blue; 영역 확인차*/
+	width:100%;
 } 
-aside#right{
-	/*background-color:green;*/
-	float:left;
-	margin-top:10px;
-	margin-left:10px;
-	line-height:30px;
-}
-aside#right div#contact{
-	border:
-}
 #shopcart{
 	margin-bottom:30px;
 }
