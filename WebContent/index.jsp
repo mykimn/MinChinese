@@ -21,18 +21,17 @@
         <div id="login">
             <h3>로그인</h3>
             <form action="login.jsp" method="post">
-                아이디 : <input type="text" size="10"><br /></style>
-                패스워드 : <input type="password" size="15"><br />
+                아이디 : <input type="text" size="10" name="id"><br /></style>
+                패스워드 : <input type="password" size="15" name="pw"><br />
                 <input type="submit" value="로그인">
                 <input type="reset" value="취소">
             </form>
-            <a href="join.html" target="main">회원가입</a><br>
-            <a href="lookup_info.html" target="main">아이디/비밀번호 찾기</a>
+            <a href="join.jsp" target="main">회원가입</a><br>
         </div>
     </aside>
     <section>
-        <article style="width:80%;">
-            <iframe name="main" width="100%" height="800" style="border:none" src="main.html"></iframe>
+        <article style="width:80%; background-color:white;">
+            <iframe name="main" width="100%" height="800" style="border:none" src="main.jsp"></iframe>
         </article>
     </section>
 </body>

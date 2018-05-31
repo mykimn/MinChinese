@@ -2,8 +2,8 @@
 * {
 	padding: 0px; /* 안쪽 여백 */
 	margin: 0px; /* 바깥쪽 여백 */
-	font-family:'Nanum Myeongjo';
-	font-size:large;
+	font-family:'Nanum Gothic';
+	font-size:medium;
 }
 body{
 	background-color: #92a8d1;
@@ -96,6 +96,7 @@ aside#left ul li ul li a:active{
 article{
 	float:left;
 	width:100%;
+	background-color:white;
 } 
 #shopcart{
 	margin-bottom:30px;
