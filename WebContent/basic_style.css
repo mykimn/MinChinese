@@ -36,6 +36,12 @@ nav ul{
 	border-top: 1px solid green;
 	border-bottom: 1px solid green;
 }
+nav ul ul{
+	display:none;
+}
+nav ul li:hover ul {
+ display: block;
+}
 nav ul li{
 	display: inline;
 	letter-spacing: 2px;
@@ -70,6 +76,13 @@ aside#leftmenu div#login{
 	background-color:white;
 	border: 3px solid #f7cac9;
 	border-radius:10px;
+	height:150px;
+}
+aside#leftmenu div#member{
+	background-color:white;
+	border: 3px solid #f7cac9;
+	border-radius:10px;
+	height:150px;
 }
 aside#left ul li ul li{
 	margin : 10px 20px;
@@ -102,6 +115,9 @@ article{
 	margin-bottom:30px;
 }
 #login{
+	margin-top:30px;
+}
+#member{
 	margin-top:30px;
 }
 footer{
