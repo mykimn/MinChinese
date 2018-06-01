@@ -8,7 +8,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Nanum+Gothic|Song+Myung');
 * {
-	font-family: 'Song Myung';
+	font-family: 'Nanum Gothic';
 	font-size:medium;
 }
 hr{
@@ -23,7 +23,6 @@ input[type=text],input[type=email],input[type=password],input[type=tel],input[ty
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 input[type=submit], input[type=reset] {
     width: 100%;
     background-color: #92a8d1;
@@ -34,7 +33,6 @@ input[type=submit], input[type=reset] {
     border-radius: 4px;
     cursor: pointer;
 }
-
 input[type=submit]:hover, input[type=reset]:hover {
     background-color: #f7cac9;
 }
@@ -42,7 +40,6 @@ label{
     display:inline-block;
     width:120px;
 }
-
 div {
     border-radius: 5px;
     background-color: #f2f2f2;

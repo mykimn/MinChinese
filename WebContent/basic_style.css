@@ -33,19 +33,22 @@ nav ul{
 	list-style: none;
 	text-align: center;
 	padding: 15px;/* 안쪽 여백 */
-	border-top: 1px solid green;
-	border-bottom: 1px solid green;
 }
 nav ul ul{
 	display:none;
+	position:absolute;
+	left:5px;
+	
 }
-nav ul li:hover ul {
- display: block;
+nav ul li:hover >ul{
+	display:block;
 }
 nav ul li{
 	display: inline;
 	letter-spacing: 2px;
 	padding: 0 15px;
+	position:relative;
+	
 	/* text-transform: lowercase; 소문자로 바꿔주는 */ 
 }
 nav ul li a{
@@ -54,7 +57,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	text-decoration: underline;
-    color: darkgreen;
+    color: #92a8d1;
 }
 aside#left{ /* aside가 두개이기 때문에 아이디도 적어줌 */
 	float: left;

@@ -11,17 +11,16 @@
     <header><a href="index.jsp"><h1 style="text-align: center">MIN'S CHINESE</h1></a></header>
     <nav>
         <ul>
-            <li><a href="index.jsp">한자</a>
-                 <ul>
-		           <li><a href="#">Sliders</a></li>
-		           <li><a href="#">Galleries</a></li>
-		           <li><a href="#">Apps</a></li>
-		           <li><a href="#">Extensions</a></li>
-         		</ul>  
+            <li><a href="practice.jsp?page='7'" target="main">한자 공부</a>
+            	<ul>
+            		<li><a href="practice.jsp?page='7'" target="main">7급</a></li>
+            		<li><a href="practice.jsp?page='6'" target="main">6급</a></li>
+            		<li><a href="practice.jsp?page='5'" target="main">5급</a></li>
+            	</ul>
             </li>
-            <li><a href="introduction.html">한자 퀴즈</a></li>
-            <li><a href="news.html" target="main">노래로 연습</a></li>
-            <li><a href="support.html" target="main">책 추천</a></li>
+            <li><a href="quiz.jsp" target="main">한자 퀴즈</a></li>
+            <li><a href="singing.jsp" target="main">노래로 연습</a></li>
+            <li><a href="book.jsp" target="main">책 추천</a></li>
         </ul>
     </nav>
     <aside id = "leftmenu">

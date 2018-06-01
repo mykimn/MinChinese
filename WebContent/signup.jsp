@@ -12,7 +12,6 @@
 </head>
 <body>
 <%
-
 	request.setCharacterEncoding("UTF-8");
 	String choose = request.getParameter("color");
 	String name = request.getParameter("name");	

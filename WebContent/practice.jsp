@@ -4,14 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title></title>
 </head>
 <body>
 <%
 	request.setCharacterEncoding("UTF-8");
-	session.removeAttribute("s_Id");
-	session.removeAttribute("s_Pwd");
-	response.sendRedirect("index.jsp");
+	String number = request.getParameter("page");
+
+
+	
 %>
 </body>
 </html>

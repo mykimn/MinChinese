@@ -11,7 +11,6 @@
 </head>
 <body>
 <%
-
 	int i = 0;
 	int j = 0;
 	int count = 0;
