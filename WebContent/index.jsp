@@ -11,20 +11,21 @@
     <header><a href="index.jsp"><h1 style="text-align: center">MIN'S CHINESE</h1></a></header>
     <nav>
         <ul>
-            <li><a href="practice.jsp?page='7'" target="main">한자 공부</a>
+            <li><a href="practice.jsp?page=8" target="main">한자 공부</a>
             	<ul>
-            		<li><a href="practice.jsp?page='7'" target="main">7급</a></li>
-            		<li><a href="practice.jsp?page='6'" target="main">6급</a></li>
-            		<li><a href="practice.jsp?page='5'" target="main">5급</a></li>
+            		<li><a href="practice.jsp?page=8" target="main">8급</a></li>
+            		<li><a href="practice.jsp?page=5" target="main">5급</a></li>
+            		<li><a href="practice.jsp?page=2" target="main">2급</a></li>
             	</ul>
             </li>
             <li><a href="quiz.jsp" target="main">한자 퀴즈</a></li>
-            <li><a href="singing.jsp" target="main">노래로 연습</a></li>
-            <li><a href="book.jsp" target="main">책 추천</a></li>
+            <li><a href="singing.jsp" target="main">이야기로 연습</a></li>
+            <li><a href="question.jsp" target="main">질문하기</a></li>
         </ul>
     </nav>
     <aside id = "leftmenu">
     <%
+    	request.setCharacterEncoding("UTF-8");
     	if(session.getAttribute("s_Id")==null && session.getAttribute("s_Pwd")==null){ %>
     		<div id="login">
 	            <h3 style="margin-top:5px; margin-left:82px; margin-bottom:10px;">로그인</h3>
@@ -40,7 +41,7 @@
 			<div id="member">
 		        <h3 style="margin-top:24px; margin-left:43px;"><%= session.getAttribute("s_Id")+"님 환영합니다." %></h3><br>
 		        <a href="myroom.jsp" target="main" style="text-decoration:none; color:gray; margin-left:39px;">내 문제방</a>&nbsp;
-		        <a href="question.jsp" target="main" style="text-decoration:none; color:gray;">질문하기</a><br><br>
+		        <a href="mysaveword.jsp" target="main" style="text-decoration:none; color:gray;">내 한자방</a><br><br>
 		        <a href="logout.jsp" style="text-decoration:none; color:red; margin-left:73px;">로그아웃</a><br>
 			</div>
     <%  }
