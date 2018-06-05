@@ -59,7 +59,7 @@ div {
 				<label>이름 </label><input type="text" name="name" required><br />
 				<label>생년월일 </label><input type="date" name="birth" required><br />
 			</fieldset>
-			<input type="submit" value="회원가입">
+			<input type="submit" value="회원가입" onclick="alert('회원가입이 완료되었습니다!')">
 			<input type="reset" value="취소">
 		</form>
 		</div>

@@ -26,6 +26,7 @@
 </style>
 </head>
 <body>
+<h1 style="margin-left:25px; margin-bottom:50px; margin-top:50px; font-family:'Nanum Gothic'; font-size:40px;"><%=session.getAttribute("s_Id") %>님의 한자방</h1>
 <%
 
 	request.setCharacterEncoding("UTF-8");
@@ -53,7 +54,6 @@
 	} catch (IOException e) { %>
 	 	<span style="margin-top:30%; margin-left:30px;"><%="아직 찜꽁한 한자가 없으세요!" %></span>
 <% 	}%>
-<h1 style="margin-left:25px; margin-bottom:50px; margin-top:50px; font-family:'Nanum Gothic'; font-size:40px;"><%=session.getAttribute("s_Id") %>님의 한자방</h1>
  <%	for(int k = 0; k<i;k++){ %>
 		<div id="hanjabox">
 			<span style="font-size:90px;"><a href="subpractice.jsp?number=<%=infor[k][2]%>&page=<%=infor[k][3]%>" style="text-decoration:none; color:black;"><%=infor[k][0]+"<br>"%></a></span>

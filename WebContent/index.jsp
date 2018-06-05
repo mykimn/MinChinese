@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>MIN'S CHINESE</title>
 <link rel="stylesheet" href="basic_style.css">
 </head>
 <body>
@@ -21,6 +21,7 @@
             <li><a href="quiz.jsp" target="main">한자 퀴즈</a></li>
             <li><a href="singing.jsp" target="main">이야기로 연습</a></li>
             <li><a href="question.jsp" target="main">질문하기</a></li>
+            <li><a href="admin.jsp">관리자 페이지</a></li>
         </ul>
     </nav>
     <aside id = "leftmenu">

@@ -15,9 +15,15 @@
 * {
 	font-family:"Nanum Gothic";
 }
-table{
+#table1{
 	border-radius:5px;
 	border:4px solid #f7cac9;
+	margin-left:13%;
+	margin-top:1%;
+}
+#table2{
+	border:2px solid #f7cac9;
+	width:1190px;
 	margin-left:13%;
 	margin-top:1%;
 }
@@ -98,10 +104,10 @@ input[type=button],input[type=submit]{
 			}
 		}
 	} catch (IOException e1) {%>
-	  <span>답글이 없어요 아직ㅠ</span>
+	  <span></span>
 <% 	}
 %>
-  <table border="1" cellspacing=0 cellpadding=0>
+  <table id ="table1" border="1" cellspacing=0 cellpadding=0>
      <tr>
       <th align="center" width="70">제목</th>
       <td width="500"><%=infor[number][0] %></td>
@@ -122,22 +128,22 @@ input[type=button],input[type=submit]{
       <td style="height:500px; font-size:20px;"><%=content%></td>
      </tr>
     </table>
-    <input type="button" onclick="location.href='question.jsp'" value="목록으로" style="margin-left:72.5%;">
+    <input type="button" onclick="location.href='question.jsp'" value="목록으로" style="margin-left:71.5%;">
     <input type="button" onclick="location.href='write_question.jsp'" value="질문하기">
     <%
     	if(session.getAttribute("s_Id")!=null && session.getAttribute("s_Pwd")!=null){%>
     		<form action="addtext.jsp" method="post">
-    	    <input type="text" name="answer" style="width:1100px; height:30px; border:4px solid #f7cac9; margin-left:12.5%; margin-top:2%; font-size:large;">
+    	    <input type="text" name="answer" style="width:1080px; height:30px; border:4px solid #f7cac9; margin-left:13%; margin-top:2%; font-size:large;">
     	    <input type="hidden" name="number" value=<%=number %>>
     	    <input type="submit" value="답글 달기">
     	    </form>
     <% 	}%>
-    <table>
+    <table id="table2" cellspacing=0 cellpadding=0>
     	<%
     		for(int n = 0; n<e;n++){%>
     			<tr>
-    	<% 		for(int m=0;m<2;m++){%>
-    				<td><%=add[n][m] %></td>
+    	<% 		for(int m=0;m<1;m++){%>
+    				<td style="text-align:left; font-size:large; height="20px";">&nbsp;&nbsp;<%=add[n][m]%>님 : <%=add[n][m+1] %></td>
     	<%		}%>
     			</tr>
     	<% 	}

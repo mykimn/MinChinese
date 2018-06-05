@@ -54,20 +54,20 @@ textarea{
    <table border="1" cellspacing=0 cellpadding=0>
      <tr>
       <th align="center" width="70">제목</th>
-      <td width="500"><input type="text" name="title" size="112" maxlength="100"></td>
+      <td width="500"><input type="text" name="title" size="130" maxlength="100"></td>
      </tr>
      <%
       	if(session.getAttribute("s_Id")==null && session.getAttribute("s_Pwd")==null){%>
       	    <tr>
             <th align="center">닉네임</th>
-            <td width="500"><input type="text" name="nick" size="112" maxlength="50"></td>
+            <td width="500"><input type="text" name="nick" size="130" maxlength="50"></td>
            </tr>
       <%}
       
       %>
      <tr>
       <th align="center">내용</th>
-      <td><textarea name="memo" cols="97" rows="20"></textarea></td>
+      <td><textarea name="memo" cols="105" rows="18"></textarea></td>
      </tr>
     </table>
     <input type="submit" value="등록" style="margin-left:40%; margin-right:2%;" onclick="alert('질문이 등록되었습니다!');"><input type=button value="취소" onclick="location.href='question.jsp'">

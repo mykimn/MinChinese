@@ -34,7 +34,8 @@
 	   		fw.close();
 		} catch (IOException e) { 
 			out.println("쓰기 오류 발생");
-}%>
-<center><h1 style="margin-top:17%;">회원가입이 완료되었습니다.</h1></center>
+		}
+	response.sendRedirect("main.jsp");
+%>
 </body>
 </html>
